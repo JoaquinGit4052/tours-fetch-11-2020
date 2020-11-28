@@ -1,0 +1,72 @@
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background-color: #ececec;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 500px;
+  background-color: rgb(241, 241, 241);
+  margin: 1rem;
+  height: fit-content;
+  box-shadow: 0 0 10px 5px rgb(202, 202, 202);
+}
+
+img {
+  width: 100%;
+}
+
+.info-container {
+  padding: 0 0.5rem;
+}
+
+.delete-btn {
+  background-color: rgb(255, 158, 158);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  font-size: 16px;
+  box-shadow: 0 0 10px 3px rgb(202, 202, 202);
+  margin-left: 35%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.read-btn {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(77, 77, 211);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  color: rgb(204, 103, 20);
+}
+
+.refresh-btn {
+  background-color: rgb(153, 214, 156);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  font-size: 16px;
+  box-shadow: 0 0 8px 2px rgb(202, 202, 202);
+  cursor: pointer;
+  font-weight: bold;
+}
